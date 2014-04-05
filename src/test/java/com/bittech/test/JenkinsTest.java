@@ -16,4 +16,15 @@ public class JenkinsTest
 		
 	}
 	
+	// This is my test
+	
+	@Test
+	public void hamid()
+	{
+		driver=new FirefoxDriver();
+		driver.get("http://www.facebook.com");
+		driver.quit();
+		
+	}
+	
 }
