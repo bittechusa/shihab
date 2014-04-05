@@ -59,4 +59,15 @@ public class JenkinsTest
 				driver.quit();
 				
 			}
+			
+			// This is my test - prodeep
+			
+				@Test
+				public void prodeep()
+				{
+					driver=new FirefoxDriver();
+					driver.get("http://www.facebook.com");
+					driver.quit();
+					
+				}
 }
