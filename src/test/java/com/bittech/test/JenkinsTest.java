@@ -49,4 +49,14 @@ public class JenkinsTest
 			
 		}
 	
+		// This is my test - Latif
+		
+			@Test
+			public void latif()
+			{
+				driver=new FirefoxDriver();
+				driver.get("http://www.facebook.com");
+				driver.quit();
+				
+			}
 }
